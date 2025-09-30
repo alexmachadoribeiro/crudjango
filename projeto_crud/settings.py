@@ -133,7 +133,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
-    os.path.join(STATIC_ROOT, ''),
+    # os.path.join(STATIC_ROOT, ''),
 ]
 
 WHITENOISE_USE_FINDERS = True
